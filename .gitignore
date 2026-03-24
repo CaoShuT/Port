@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 数据目录（不提交原始数据）
+data/
+pretrained_models/
+
+# 训练输出（不提交模型权重和大文件）
+output/
+log/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 环境
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# TensorBoard
+runs/
